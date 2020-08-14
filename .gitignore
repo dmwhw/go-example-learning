@@ -4,3 +4,9 @@
 *.a
 .settings
 .project
+*/pkg/*
+*/github.com/*
+github.com/
+pkg/
+bin/
+.vscode

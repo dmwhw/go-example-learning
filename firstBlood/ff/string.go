@@ -1,6 +1,7 @@
 package main1
+
 import "fmt"
 
-func Mainstring(){
-    fmt.Print("ddddd");
+func Mainstring() {
+	fmt.Print("ddddd")
 }
