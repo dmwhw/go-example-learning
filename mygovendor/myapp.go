@@ -1,11 +1,12 @@
 /*
  * @Author: your name
- * @Date: 2020-08-13 18:42:57
- * @LastEditTime: 2020-08-14 11:58:07
+ * @Date: 2020-08-14 17:27:44
+ * @LastEditTime: 2020-08-17 15:33:31
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
- * @FilePath: \src\packageMgr\gopathInSide\src\myapp\myapp.go
+ * @FilePath: \src\packageMgr\mygovendor\app\myapp.go
  */
+
 package main
 
 /*
@@ -14,14 +15,16 @@ package main
 import (
 	"fmt"
 	"github.com/garyburd/redigo/redis"
-	"myapp/utils"
+	"mygovendor/service"
+	"mygovendor/utils"
 	"time"
 )
 
 func main() {
 	fmt.Println("hello")
+	mytools.Print()
 	main2()
-	utools.Print()
+	service.DoService()
 }
 
 func main2() {

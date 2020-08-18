@@ -1,12 +1,4 @@
-/*
- * @Author: your name
- * @Date: 2020-08-14 17:27:44
- * @LastEditTime: 2020-08-14 17:49:56
- * @LastEditors: Please set LastEditors
- * @Description: In User Settings Edit
- * @FilePath: \src\packageMgr\mygovendor\app\myapp.go
- */
-
+ 
 package main
 
 /*
@@ -14,15 +6,14 @@ package main
 **/
 import (
 	"fmt"
-	"app/utils"
+	
 	"time"
 	"github.com/garyburd/redigo/redis"
-)
+ )
 
 func main() {
 	fmt.Println("hello")
-	utils.Print()
-	main2()
+ 	main2()
 }
 
 func main2() {

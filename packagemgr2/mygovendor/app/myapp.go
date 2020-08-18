@@ -1,11 +1,4 @@
-/*
- * @Author: your name
- * @Date: 2020-08-13 18:42:57
- * @LastEditTime: 2020-08-14 11:58:07
- * @LastEditors: Please set LastEditors
- * @Description: In User Settings Edit
- * @FilePath: \src\packageMgr\gopathInSide\src\myapp\myapp.go
- */
+ 
 package main
 
 /*
@@ -13,15 +6,14 @@ package main
 **/
 import (
 	"fmt"
-	"github.com/garyburd/redigo/redis"
-	"myapp/utils"
+	
 	"time"
-)
+	"github.com/garyburd/redigo/redis"
+ )
 
 func main() {
 	fmt.Println("hello")
-	main2()
-	utools.Print()
+ 	main2()
 }
 
 func main2() {

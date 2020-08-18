@@ -1,14 +1,16 @@
 /*
  * @Author: your name
  * @Date: 2020-08-14 13:48:23
- * @LastEditTime: 2020-08-14 14:08:40
+ * @LastEditTime: 2020-08-17 11:24:50
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \src\packageMgr\goMod\utils\print.go
  */
-package utils
+package mytools
+
 import "fmt"
+
 ///大写才能外部调用
-func Print(){
+func Print() {
 	fmt.Println("hellow")
 }

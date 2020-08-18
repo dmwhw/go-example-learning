@@ -1,0 +1,1 @@
+ERROR: 2020/08/17 10:46:24 logdemo.go:46: Something has failed

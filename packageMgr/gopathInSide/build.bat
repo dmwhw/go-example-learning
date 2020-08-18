@@ -7,6 +7,7 @@ set SRC_PATH=%CURRENT_PATH%\src
 set APP_NAME=myapp
 set GOPATH=%CURRENT_PATH%
 set GOBIN=%GOPATH%\bin\
+set GO111MODULE=auto
 mkdir %GOBIN%
 echo "must using this to write[go env] in windows"
 go env -w GOBIN=%GOBIN%

@@ -1,1 +1,8 @@
 https://zhuanlan.zhihu.com/p/67814022
+https://learnku.com/articles/32630
+
+go mod vendor
+
+vendor is  only  a package manager,cant not run without GOPATH;
+it is a simple GOPATH project.
+it can't use diy package inside.
